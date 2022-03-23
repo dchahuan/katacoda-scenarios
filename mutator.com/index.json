@@ -33,7 +33,9 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+    "showide": true
+  },
   "backend": {
     "imageid": "nodejs:12"
   }
