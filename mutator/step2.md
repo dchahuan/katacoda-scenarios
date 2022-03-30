@@ -2,6 +2,15 @@ There are two routes to install Stryker mutation to your project. The easiest wa
 
     node -v
 
+***NOTE: Katacoda does not support node over 12.16 so you need to manually install it in the terminal using the following commands. If your node is above 12.17 you can skip past these commands:
+
+To install nvm
+	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+After a few seconds you need to open a new terminal, and run
+	nvm install 16
+nvm use 16 
+
+
 After we check we have a compatible node version, we need to install the cli with the following command
 
     npm install -g stryker-cli
