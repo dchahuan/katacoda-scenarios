@@ -7,10 +7,10 @@
     "assets": {
       "client": [
         {
-          "file": "calculator.js", "target":"~/routes"
+          "file": "routes/calculator.js", "target":"~/routes"
         },
         {
-          "file": "todo.js", "target":"~/routes"
+          "file": "routes/todo.js", "target":"~/routes"
         },
         {
           "file": "db.js", "target":"~/"
