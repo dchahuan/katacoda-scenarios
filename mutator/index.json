@@ -1,0 +1,63 @@
+{
+  "title": "Mutation Testing and StrykerJS tutorial",
+  "description": "Mutation Testing and StrykerJS tutorial",
+  "difficulty": "Beginner",
+  "time": "20",
+  "details": {
+    "assets": {
+      "client": [
+        {
+          "file": "routes/calculator.js", "target":"~/routes"
+        },
+        {
+          "file": "routes/todo.js", "target":"~/routes"
+        },
+        {
+          "file": "db.js", "target":"~/"
+        },
+        {
+          "file": "index.js", "target":"~/"
+        },
+        {
+          "file": "package.json", "target":"~/"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "title": "Introdution",
+        "text": "step1.md"
+      },
+      {
+        "title": "Installation",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+
+  "environment": {
+    "showide": true,
+    "uilayout": "vscode-terminal-split"
+  },
+  "backend": {
+    "imageid": "nodejs:16"
+  }
+}
