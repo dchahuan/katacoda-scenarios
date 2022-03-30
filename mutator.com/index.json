@@ -17,6 +17,9 @@
         },
         {
           "file": "index.js", "target":"~/"
+        },
+        {
+          "file": "package.json", "target":"~/"
         }
       ]
     },
