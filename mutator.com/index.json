@@ -15,8 +15,8 @@
         {
           "file": "db.js", "target":"~/"
         },
-              {
-          "file": "calculator.js", "target":"~/"
+        {
+          "file": "index.js", "target":"~/"
         }
       ]
     },
