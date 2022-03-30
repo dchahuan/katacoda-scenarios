@@ -19,7 +19,7 @@
           "file": "index.js", "target":"~/"
         },
         {
-          "file": "stryker.config.js", "target":"~/"
+          "file": "stryker.conf.js", "target":"~/"
         },
         {
           "file": "package.json", "target":"~/"
