@@ -1,7 +1,7 @@
 {
   "title": "Mutation Testing and StrykerJS tutorial",
   "description": "Mutation Testing and StrykerJS tutorial",
-  "difficulty": "Beginner",
+  "difficulty": "Intermediate",
   "time": "20",
   "details": {
     "assets": {
@@ -43,6 +43,10 @@
       {
         "title": "Step 5",
         "text": "step5.md"
+      },
+      {
+        "title": "Step 6",
+        "text": "step6.md"
       }
     ],
     "intro": {

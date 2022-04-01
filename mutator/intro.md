@@ -18,7 +18,7 @@ You will work on a simple JS application that replicates the tools of a calculat
 
 ### Recommended prerequisites:
 
-Basic knowledge of JS development, npm package management, and the JEST testing framework.
+Knowledge of JS development, npm package management, and the JEST testing framework.
 
 #### Time needed: 15-20 minutes
 </br>
