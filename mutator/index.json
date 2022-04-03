@@ -6,22 +6,7 @@
   "details": {
     "assets": {
       "client": [
-        {
-          "file": "routes/calculator.js", "target":"~/routes"
-        },
-        {
-          "file": "routes/todo.js", "target":"~/routes"
-        },
-        {
-          "file": "db.js", "target":"~/"
-        },
-        {
-          "file": "index.js", "target":"~/"
-        },
-        {
-          "file": "package.json", "target":"~/"
-        }
-      ]
+      ] 
     },
     "steps": [
       {
@@ -33,16 +18,12 @@
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Configuration",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Running StrykerJs and navigate the report",
         "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
       }
     ],
     "intro": {

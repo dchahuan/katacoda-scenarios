@@ -5,10 +5,20 @@ There are two routes to install Stryker mutation to your project. The easiest wa
 ***NOTE: Katacoda does not support node over 12.16 so you need to manually install it in the terminal using the following commands. If your node is above 12.17 you can skip past these commands:
 
 To install nvm
+
 	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 After a few seconds you need to open a new terminal, and run
+
 	nvm install 16
-nvm use 16 
+
+    nvm use 16 
+
+Now we need to clone the repository we are going to test with stryker, to do this we need to run the following command:
+
+    git clone https://github.com/dchahuan/glide
+    cd glide
+
+
 
 
 After we check we have a compatible node version, we need to install the cli with the following command
@@ -16,7 +26,7 @@ After we check we have a compatible node version, we need to install the cli wit
     npm install -g stryker-cli
 
 With the cli installed we can start the initialization process with:
-stryker init
+    stryker init
 
 Here we are ask the following questions:
 
@@ -41,3 +51,5 @@ Here we are ask the following questions:
 </ol>  
 
 Following this steps you already have the basic setup you need to run mutation testing.
+
+## Note: to show files in vscode you need to click the refresh button
