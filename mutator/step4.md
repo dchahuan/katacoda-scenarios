@@ -1,15 +1,15 @@
-Now that we installed Stryker and learnt how to change the config file we can finally run the program to do this we need to run the following command:
+Now that we have Stryker Mutator installed and learned how to change the config file, we can finally run the mutations. To do this we need to run the following command:
  
    stryker run
  
-After you execute this command you will start to see messages appearing on the terminal. This includes how many files will be scanned if stryker detects a bug and when the mutation actually starts you will be seeing the test being run. This should last about 2 minutes.
+After you execute this command, you will start to see the log messages appear in the terminal. This includes the number of files to be scanned and the test being run. To run all of the mutations for this test suite it should take about 2 minutes.
  
-After the run is finished we will need to refresh <strong>VSCODE</strong> and inside we will find the following route <strong>reports/mutation/html/index.html </strong>. If you want to see this in your own browser you left click the file in Vscode and download it.
+After Stryker Mutator has finished we will need to refresh <strong>VSCODE</strong> to see the report it generated. The report is in <strong>reports/mutation/html/index.html </strong>. If you want to see this in your own browser, right click the file in Vscode and download it.
  
 When you open the file, you will be greeted with the following display:
  
 <img src="assets/entry_menu.png"/>
  
-Here you get an average score of how you performed in respect to the amount of mutants that got discovered. You also get a number of the amount of blocks of code that didn't get covered by the tests. To see exactly what lines are the ones that aren't being correctly covered you can click inside the file. This will be discussed in depth on the next step.
+Here it shows you the average score of how your tests performed in respect to the number of mutants it was tested on. It also displays the number of blocks of code that were not covered by the tests. To see exactly what mutants and the corresponding lines where the mutant survives, you can click inside the file. This will be discussed in depth on the next step.
  
-### *Note: The test look poor because we had to delete most in order for it to run in an appropriate amount of time
+### *Note: The test suite report is bad because we only took a subset of their tests in order for it to run in an appropriate amount of time.
