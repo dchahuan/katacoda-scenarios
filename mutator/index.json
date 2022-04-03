@@ -6,6 +6,9 @@
   "details": {
     "assets": {
       "client": [
+              {
+        "file": "entry_menu.png", "target":"~/"
+        }
       ] 
     },
     "steps": [
