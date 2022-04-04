@@ -4,7 +4,7 @@ Mutation testing is a form of testing where testers change components of code to
 These mutations are usually used for unit testing and the goal is for your tests to be able to detect all of the mutated code. Your test suite is run for each mutant and if the tests fail then the mutant is killed. On the contrary, if the tests succeed then the mutant survived. The more mutants that are killed, the more effective your tests are.
 
 ## Introducing Stryker Mutator:
-Stryker Mutator is a tool that implements this mutation testing concept into your source code. The design of the tool allows you to implement mutation testing on three platforms as of now: Javascript (StrykerJS), C# (Stryker.NET), and Scala (Stryker4s).  
+Stryker Mutator is a tool that implements this mutation testing concept into your source code. The design of the tool allows you to implement mutation testing on three platforms as of now: <a href="https://www.freecodecamp.org/news/content/images/2019/07/best-js-meme-to-date-2.png">Javascript</a> (StrykerJS), C# (Stryker.NET), and Scala (Stryker4s).  
 
 In this tutorial, we will focus on StrykerJS, but you can find more about the other two platforms here: <a href="https://stryker-mutator.io/docs/stryker-net/introduction ">Stryker.NET</a>, <a href="https://stryker-mutator.io/docs/stryker4s/getting-started">Stryker4s</a>
 
