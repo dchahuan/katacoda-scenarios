@@ -25,8 +25,12 @@
         "text": "step3.md"
       },
       {
-        "title": "Running StrykerJs and navigate the report",
+        "title": "Running StrykerJs and creating the report",
         "text": "step4.md"
+      },
+      {
+        "title": "Taking a closer look at the report",
+        "text": "step5.md"
       }
     ],
     "intro": {
